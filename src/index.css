@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 40 15% 98%;
+    --foreground: 25 15% 15%;
+
+    --card: 40 25% 96%;
+    --card-foreground: 25 15% 15%;
+
+    --popover: 40 25% 96%;
+    --popover-foreground: 25 15% 15%;
+
+    /* Royal purple primary inspired by traditional royalty */
+    --primary: 270 85% 60%;
+    --primary-foreground: 40 15% 98%;
+    --primary-glow: 270 95% 70%;
+
+    /* Soft lavender secondary */
+    --secondary: 280 30% 92%;
+    --secondary-foreground: 270 15% 15%;
+
+    --muted: 280 20% 94%;
+    --muted-foreground: 270 10% 45%;
+
+    /* Deep violet accent */
+    --accent: 260 75% 50%;
+    --accent-foreground: 40 15% 98%;
+
+    /* Amethyst highlights */
+    --amethyst: 285 80% 65%;
+    --amethyst-foreground: 270 15% 15%;
+
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 40 15% 98%;
+
+    --border: 45 15% 85%;
+    --input: 45 15% 85%;
+    --ring: 18 75% 55%;
+
+    --radius: 0.75rem;
+
+    /* Custom gradients for royal feel */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-warm: linear-gradient(180deg, hsl(var(--background)), hsl(var(--secondary)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(260 65% 60%));
+    --gradient-royal: linear-gradient(145deg, hsl(270 85% 60%), hsl(285 80% 65%), hsl(300 75% 70%));
+    
+    /* Elegant shadows with purple glow */
+    --shadow-soft: 0 4px 20px -4px hsl(var(--primary) / 0.15);
+    --shadow-elegant: 0 10px 40px -10px hsl(var(--primary) / 0.25);
+    --shadow-purple: 0 8px 32px -8px hsl(var(--amethyst) / 0.2);
+    
+    /* Smooth transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 270 15% 8%;
+    --foreground: 280 15% 95%;
+
+    --card: 270 15% 10%;
+    --card-foreground: 280 15% 95%;
+
+    --popover: 270 15% 10%;
+    --popover-foreground: 280 15% 95%;
+
+    --primary: 270 95% 75%;
+    --primary-foreground: 270 15% 8%;
+    --primary-glow: 270 100% 85%;
+
+    --secondary: 270 10% 15%;
+    --secondary-foreground: 280 15% 95%;
+
+    --muted: 270 8% 12%;
+    --muted-foreground: 270 5% 60%;
+
+    --accent: 260 85% 70%;
+    --accent-foreground: 270 15% 8%;
+
+    --amethyst: 285 90% 75%;
+    --amethyst-foreground: 270 15% 8%;
+
+    --destructive: 0 75% 65%;
+    --destructive-foreground: 280 15% 95%;
+
+    --border: 270 8% 18%;
+    --input: 270 8% 18%;
+    --ring: 270 95% 75%;
+
+    /* Dark mode gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-warm: linear-gradient(180deg, hsl(var(--background)), hsl(var(--secondary)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(260 75% 80%));
+    --gradient-royal: linear-gradient(145deg, hsl(270 95% 75%), hsl(285 90% 75%), hsl(300 85% 80%));
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
