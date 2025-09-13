@@ -1,18 +1,9 @@
-# Welcome to your Lovable project
-
-## Project info
-
-**URL**: https://lovable.dev/projects/4b0b0ce3-83e1-41fc-b395-bff2352a4db9
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/4b0b0ce3-83e1-41fc-b395-bff2352a4db9) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
+# Welcome to our project
+Project info
+The main purpose of making this Project("Kala-Setu") is we want to share creativity and passionating stories of talented artisans and craftsmen because there is no such a platform where artisans and craftsmen show there creativity("Kala"). With the help of this platform artisans and craftsmen also earn suitable amount of money. Lets talk about some features of this website that is: 
+The artisan can connect with other artisans just like people do in linkedin.
+Artisan can also upload there art work video just like reel/shorts in instagram.
+Artisan can sell there art for those customers who like to buy beautiful craft and art items.
 
 **Use your preferred IDE**
 
@@ -62,12 +53,9 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/4b0b0ce3-83e1-41fc-b395-bff2352a4db9) and click on Share -> Publish.
+Simply open netlify or any free servcices where u can deploy your project
 
-## Can I connect a custom domain to my Lovable project?
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
